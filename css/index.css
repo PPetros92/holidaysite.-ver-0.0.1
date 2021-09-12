@@ -1,0 +1,539 @@
+@charset "UTF-8";
+header {
+  width: 80%;
+  margin: 0 auto;
+  position: relative; }
+  @media screen and (max-width: 1207px) {
+    header {
+      width: 100%; } }
+
+.logo-new img {
+  float: left; }
+
+.navigacia {
+  text-align: center; }
+  .navigacia li {
+    display: inline-block;
+    font-size: 2em;
+    padding: 1% 0.5em; }
+    @media screen and (max-width: 975px) {
+      .navigacia li {
+        font-size: 1em;
+        padding: 1% 0.2em; } }
+
+.navigacia a {
+  color: white;
+  text-align: center;
+  text-decoration: none; }
+  .navigacia a:hover {
+    color: #d9d9d9;
+    transition: 0.2s ease-in-out; }
+
+.logo-new img {
+  width: 26.9868558942992%;
+  height: auto;
+  margin-bottom: 2em; }
+
+.active {
+  background-color: #4a9bc3;
+  border-radius: 0.2em; }
+  .active a {
+    color: #d9d9d9; }
+
+body {
+  background-color: #5da6c9;
+  padding: 2%;
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box; }
+
+main .obsah {
+  width: 80%;
+  margin: 0 auto; }
+  main .obsah h1 {
+    text-align: center;
+    font-size: 2em;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 3%; }
+  main .obsah p {
+    text-align: center;
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    line-height: 1.5em; }
+    @media screen and (max-width: 1456px) {
+      main .obsah p {
+        width: 70%; } }
+    @media screen and (max-width: 961px) {
+      main .obsah p {
+        width: 100%; } }
+    @media screen and (max-width: 580px) {
+      main .obsah p {
+        width: 100%;
+        font-size: 1.1em; } }
+
+.zoznam {
+  text-align: center; }
+  .zoznam li {
+    display: inline; }
+  .zoznam img {
+    width: 24.7%;
+    height: auto;
+    opacity: 0.5;
+    /*@media screen and (max-width:1151px) {
+            width: 37.26%;
+        }*/ }
+    @media screen and (max-width: 1329px) {
+      .zoznam img {
+        width: 34%; } }
+    .zoznam img:hover {
+      opacity: 1; }
+
+.podfooter {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .podfooter h1 {
+    margin-bottom: 3%;
+    font-size: 2em;
+    margin-left: 16%; }
+    @media screen and (max-width: 950px) {
+      .podfooter h1 {
+        margin-left: 0;
+        text-align: center; } }
+  .podfooter img {
+    width: 21.54028550356018%;
+    height: auto;
+    float: left;
+    margin: 0 auto;
+    margin-right: 1em; }
+    @media screen and (max-width: 950px) {
+      .podfooter img {
+        width: 38%; } }
+  .podfooter p {
+    width: 50%;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 3%; }
+    @media screen and (max-width: 950px) {
+      .podfooter p {
+        width: 100%; } }
+
+.end-footer {
+  width: 80%;
+  margin: 0 auto; }
+  .end-footer p {
+    text-align: right;
+    background-color: gray; }
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  clear: both; }
+
+.navigacia2 {
+  width: 21%;
+  float: left; }
+  .navigacia2 img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto; }
+  .navigacia2 li {
+    margin-bottom: 3%; }
+
+.cambridge {
+  width: 74%;
+  float: left;
+  padding: 0 1em;
+  margin-left: 1.5%;
+  background-color: #6caece;
+  border-radius: 1.5em;
+  padding-top: 2em;
+  box-sizing: border-box; }
+  @media screen and (max-width: 460px) {
+    .cambridge {
+      width: 77.5%;
+      padding: 0 0.2em; } }
+  .cambridge h1 {
+    margin-bottom: 3%;
+    font-size: 2em; }
+    @media screen and (max-width: 460px) {
+      .cambridge h1 {
+        text-align: center; } }
+  .cambridge p {
+    width: 100%;
+    line-height: 2em;
+    font-size: 1em;
+    box-sizing: border-box; }
+    @media screen and (max-width: 460px) {
+      .cambridge p {
+        text-align: center;
+        font-size: 0.8em; } }
+
+.richmond {
+  width: 74%;
+  float: left;
+  padding: 0 1em;
+  margin-left: 1.5%;
+  background-color: #6caece;
+  border-radius: 1.5em;
+  padding-top: 2em;
+  box-sizing: border-box; }
+  @media screen and (max-width: 460px) {
+    .richmond {
+      width: 77.5%;
+      padding: 0 0.2em; } }
+  .richmond h1 {
+    margin-bottom: 3%;
+    font-size: 2em; }
+    @media screen and (max-width: 460px) {
+      .richmond h1 {
+        text-align: center; } }
+  .richmond p {
+    width: 100%;
+    line-height: 2em;
+    font-size: 1em;
+    box-sizing: border-box; }
+    @media screen and (max-width: 460px) {
+      .richmond p {
+        text-align: center;
+        font-size: 0.8em; } }
+
+.cyprus {
+  width: 74%;
+  float: left;
+  padding: 0 1em;
+  margin-left: 1.5%;
+  background-color: #6caece;
+  border-radius: 1.5em;
+  padding-top: 2em;
+  box-sizing: border-box; }
+  @media screen and (max-width: 460px) {
+    .cyprus {
+      width: 77.5%;
+      padding: 0 0.2em; } }
+  .cyprus h1 {
+    margin-bottom: 3%;
+    font-size: 2em; }
+    @media screen and (max-width: 460px) {
+      .cyprus h1 {
+        text-align: center; } }
+  .cyprus p {
+    width: 100%;
+    line-height: 2em;
+    font-size: 1em;
+    box-sizing: border-box; }
+    @media screen and (max-width: 460px) {
+      .cyprus p {
+        text-align: center;
+        font-size: 0.8em; } }
+
+.irsko {
+  width: 74%;
+  float: left;
+  padding: 0 1em;
+  margin-left: 1.5%;
+  background-color: #6caece;
+  border-radius: 1.5em;
+  padding-top: 2em;
+  box-sizing: border-box; }
+  @media screen and (max-width: 460px) {
+    .irsko {
+      width: 77.5%;
+      padding: 0 0.2em; } }
+  .irsko h1 {
+    margin-bottom: 3%;
+    font-size: 2em; }
+    @media screen and (max-width: 460px) {
+      .irsko h1 {
+        text-align: center; } }
+  .irsko p {
+    width: 100%;
+    line-height: 2em;
+    font-size: 1em;
+    box-sizing: border-box; }
+    @media screen and (max-width: 460px) {
+      .irsko p {
+        text-align: center;
+        font-size: 0.8em; } }
+
+.sevensisters {
+  width: 74%;
+  float: left;
+  padding: 0 1em;
+  margin-left: 1.5%;
+  background-color: #6caece;
+  border-radius: 1.5em;
+  padding-top: 2em;
+  box-sizing: border-box; }
+  @media screen and (max-width: 460px) {
+    .sevensisters {
+      width: 77.5%;
+      padding: 0 0.2em; } }
+  .sevensisters h1 {
+    margin-bottom: 3%;
+    font-size: 2em; }
+    @media screen and (max-width: 460px) {
+      .sevensisters h1 {
+        text-align: center; } }
+  .sevensisters p {
+    width: 100%;
+    line-height: 2em;
+    font-size: 1em;
+    box-sizing: border-box; }
+    @media screen and (max-width: 460px) {
+      .sevensisters p {
+        text-align: center;
+        font-size: 0.8em; } }
+
+.selected-2018 {
+  border-radius: 2em;
+  border: 2px solid black;
+  box-sizing: border-box;
+  opacity: 0.5; }
+  @media screen and (max-width: 1146px) {
+    .selected-2018 {
+      border-radius: 1em; } }
+
+#tlusty {
+  font-weight: bolder; }
+
+.cambridge li {
+  display: inline; }
+  .cambridge li img {
+    width: 24%;
+    height: auto;
+    margin-top: 1.7em;
+    border-radius: 0.5em;
+    border: 0.1em solid #307190;
+    text-shadow: 1px 1px 2px black;
+    box-sizing: border-box; }
+    @media screen and (max-width: 670px) {
+      .cambridge li img {
+        width: 23%; } }
+  .cambridge li a:hover {
+    opacity: 0.5; }
+
+.cambridge-photo {
+  margin-bottom: 2em; }
+  .cambridge-photo li {
+    display: inline; }
+    .cambridge-photo li img {
+      width: 49%;
+      height: auto;
+      margin-top: 1em; }
+      @media screen and (max-width: 670px) {
+        .cambridge-photo li img {
+          width: 48%; } }
+
+#krivy {
+  font-style: italic;
+  font-weight: 300;
+  color: #4d4d4d; }
+
+.richmond li {
+  display: inline; }
+
+.richmond img {
+  width: 24%;
+  height: auto;
+  margin-top: 1.7em;
+  border-radius: 0.5em;
+  border: 0.1em solid #307190;
+  text-shadow: 1px 1px 2px black;
+  box-sizing: border-box; }
+  @media screen and (max-width: 670px) {
+    .richmond img {
+      width: 23%; } }
+
+.richmond a:hover {
+  opacity: 0.5; }
+
+.richmond-photo {
+  margin: 4em 0 2em 0;
+  text-align: center; }
+  .richmond-photo li {
+    display: inline; }
+    .richmond-photo li img {
+      width: 25%;
+      height: auto;
+      border-radius: 60%;
+      margin-top: 0; }
+      @media screen and (max-width: 670px) {
+        .richmond-photo li img {
+          width: 45%; } }
+  .richmond-photo p {
+    width: 30%;
+    text-align: left;
+    float: left; }
+    @media screen and (max-width: 1254px) {
+      .richmond-photo p {
+        width: 100%;
+        text-align: center; } }
+
+.cyprus {
+  margin-bottom: 4%;
+  padding-bottom: 4%; }
+  @media screen and (max-width: 664px) {
+    .cyprus h1, .cyprus p {
+      text-align: center; } }
+  .cyprus img {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin: 3em 0;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    border: 0.1em solid #307190;
+    opacity: 0.9; }
+    .cyprus img:hover {
+      opacity: 1; }
+
+#xxx {
+  width: 18em; }
+
+.cyprus-photo {
+  margin: 4% 0; }
+  .cyprus-photo li {
+    display: inline; }
+  .cyprus-photo img {
+    width: 16.6%;
+    height: auto;
+    margin: 0; }
+    @media screen and (max-width: 616px) {
+      .cyprus-photo img {
+        width: 33.3%; } }
+
+.irsko {
+  margin-bottom: 10em; }
+  @media screen and (max-width: 664px) {
+    .irsko {
+      padding: 0 0; }
+      .irsko h1, .irsko p {
+        text-align: center; } }
+  .irsko .important {
+    color: white;
+    background-color: #ff0000a1;
+    padding: 0.5em 0.7em;
+    border-radius: 0.7em; }
+  .irsko ul {
+    text-align: center;
+    margin: 6% 0; }
+  .irsko li {
+    display: inline; }
+  .irsko a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    padding: 0.7% 1.2%;
+    background-color: #4a9bc3;
+    border-radius: 0.4em;
+    border: 0.1em solid #307190; }
+    @media screen and (max-width: 849px) {
+      .irsko a {
+        font-size: 0.6em;
+        padding: 0.7% 0; } }
+    .irsko a:hover {
+      background-color: #5da6c9; }
+  .irsko .active2 {
+    font-size: 2em; }
+  .irsko .prvyden h1 {
+    font-size: 1em;
+    text-decoration: underline;
+    margin-bottom: 3%; }
+    @media screen and (max-width: 1028px) {
+      .irsko .prvyden h1 {
+        text-align: center;
+        width: 100%; } }
+  .irsko .prvyden p {
+    width: 40%;
+    font-size: 0.8em;
+    clear: both; }
+    @media screen and (max-width: 1028px) {
+      .irsko .prvyden p {
+        width: 100%;
+        text-align: center; } }
+  .irsko .prvyden a {
+    padding: 0;
+    border: none;
+    background-color: #5da6c9; }
+  .irsko .prvyden img {
+    width: 15%;
+    float: left;
+    margin: 4% 0;
+    margin-right: 1%;
+    border-radius: 1em;
+    box-sizing: border-box;
+    border: 0.1em solid #307190;
+    opacity: 0.6; }
+    @media screen and (max-width: 1028px) {
+      .irsko .prvyden img {
+        width: 32.3%; } }
+    .irsko .prvyden img:hover {
+      opacity: 1; }
+  .irsko .druhyden h1 {
+    font-size: 1em;
+    text-decoration: underline;
+    margin-bottom: 3%; }
+    @media screen and (max-width: 1028px) {
+      .irsko .druhyden h1 {
+        text-align: center;
+        width: 100%; } }
+  .irsko .druhyden p {
+    width: 40%;
+    font-size: 0.8em;
+    clear: both; }
+    @media screen and (max-width: 1028px) {
+      .irsko .druhyden p {
+        width: 100%;
+        text-align: center; } }
+  .irsko .druhyden a {
+    padding: 0;
+    border: none;
+    background-color: #5da6c9; }
+  .irsko .druhyden img {
+    width: 15%;
+    float: left;
+    margin: 4% 0;
+    margin-right: 1%;
+    border-radius: 1em;
+    box-sizing: border-box;
+    border: 0.1em solid #307190;
+    opacity: 0.6; }
+    @media screen and (max-width: 1028px) {
+      .irsko .druhyden img {
+        width: 32.3%; } }
+    .irsko .druhyden img:hover {
+      opacity: 1; }
+  .irsko #velkost-zmena,
+  .irsko #velkost-zmena2 {
+    width: 8%; }
+    @media screen and (max-width: 680px) {
+      .irsko #velkost-zmena,
+      .irsko #velkost-zmena2 {
+        width: 15%; } }
+  @media screen and (max-width: 664px) {
+    .irsko main {
+      width: 100%; }
+    .irsko .cambridge,
+    .irsko .richmond {
+      width: 77%;
+      box-sizing: border-box;
+      text-align: center; }
+      .irsko .cambridge li img,
+      .irsko .richmond li img {
+        width: 23%; }
+    .irsko .cambridge-photo li img {
+      width: 49%; } }
+  .irsko .group:before,
+  .irsko .group:after {
+    content: “ ”;
+    display: table; }
+  .irsko .group {
+    clear: both; }
+  .irsko .group {
+    *zoom: 1; }

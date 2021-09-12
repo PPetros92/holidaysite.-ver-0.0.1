@@ -1,0 +1,242 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 2%;
+    background-color: #5EA6C9;
+    font-size: 100%;
+}
+
+/*HEADER*/
+.navigacia {
+    
+    background-color: #99621F80;
+    /*width: 100%;
+    margin: 0 auto;*/
+    
+    
+}
+.navigacia li {
+    display: inline-block;
+    padding: 0.5%;
+    margin: 1%;
+    
+}
+.navigacia ul {
+    text-align: right;
+    
+}
+.navigacia a {
+    
+    text-decoration: underline;
+    color: #fff;
+    font-size: 1.6em;
+    
+
+}
+.navigacia li:hover {
+    background-color: #99621f;
+    border-radius: 5px;
+}
+
+.logo-new img {
+    width: 21.33188955062263%; /* 394.2px/1848px x 100*/
+    height: auto;
+    margin-bottom: 2%;
+    float: left;
+}
+.logo-new:hover {
+    cursor: pointer;
+    
+}
+
+
+
+/*MAIN*/
+.obsah {
+    width: 38%;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    padding: 10%;
+    
+
+}
+.obsah h1 {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 2em;
+}
+.obsah p {
+    color: #2d0303;
+    text-align: center;
+    line-height: 160%;
+}
+
+aside {
+    clear: both;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+aside img {
+    width: 20%;
+    border-radius: 5%;
+    
+}
+.zoznam li{
+    display: inline;
+}
+.zoznam a {
+    margin-right: -0.3%;
+}
+
+.circle:hover {
+    border-radius:50%;
+}
+
+footer.podfooter {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30%;
+}
+
+.podfooter h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.podfooter img {
+    width: 25%;
+    border-radius: 50%;
+    border: 0.6em solid #99621F80;
+    float: left;
+}
+.podfooter p {
+    width: 30%;
+    float: left;
+    margin-top: 8%;
+    margin-left: 9%;
+    text-align: center;
+}
+@media screen and (max-width:1056px) {
+    .podfooter img {
+        float: none;
+        width: 70%;
+
+
+    }
+    .podfooter {
+        text-align: center;
+    }
+    .podfooter p {
+        float: none;
+        width: 80%;
+
+    }
+    .end-footer {
+        font-size: ;
+    }
+    
+}
+
+/*FOOTER*/
+
+.end-footer {
+    text-align: right;
+    background-color: #55546463;
+}
+.end-footer a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 2%;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.end-footer a:hover {
+    text-decoration: underline;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:715px) {
+    .navigacia a {
+        font-size: 0.9em;
+    }
+
+    .obsah {
+        width: 70%;
+        
+        padding: 12%;
+    }
+}
